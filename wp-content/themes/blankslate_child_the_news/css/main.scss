@@ -1,0 +1,25 @@
+.custom-logo {
+    @extend .img-fluid;
+    width: 8rem;
+    height: auto;
+}
+
+$primary: #ffc107;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  #6c757d,
+);
+
+
+@import "./bootstrap/scss/bootstrap";
+
+
+// Custom CSS
+.text-responsive {
+    font-size: 1.5rem;
+}
+
+.swiper-button-prev .swiper-button-next {
+    color: $primary;
+}
